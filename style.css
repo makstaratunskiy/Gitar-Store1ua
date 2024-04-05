@@ -1,0 +1,468 @@
+body {
+    background-color:darkgrey;
+}
+
+header {
+    background-color: rgb(76, 78, 128);
+    padding: 20px;
+   
+}
+
+
+header a {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    position: relative;
+    margin-left: 45%;
+    border-radius: 7px;
+    border: 7px dashed green;
+    
+}
+
+nav {
+    width: 160px;
+    background-color: #caff82;
+    border: 1px solid #caff82;
+    border-radius: 5%;
+    display: block;
+    justify-content: center;
+    float: left;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+}
+
+nav a:hover {
+    background-color: #c1c1c1;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.g {
+    background-color: green;
+}
+
+.go {
+    background-color: rgb(95, 143, 23);
+}
+
+.a {
+    background-color: rgb(28, 194, 28);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+
+.e {
+    font-size: 35px;
+    border: 7px dashed green;
+    border-radius: 7%;
+}
+
+summary {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(126, 10, 10);
+}
+
+.Post {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.MuzO {
+    font-size: 25px;
+    color: black;
+    border: 5px solid darkslategray;
+    border-radius: 20px;
+    width: 350px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 30px;
+}
+
+.MuzO:hover {
+    font-size: 25px;
+    color: black;
+    background-color: wheat;
+    border: 5px double darkslategray;
+    width: 400px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    
+}
+
+.MuzO-text:hover:first-letter {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    color: crimson;
+}
+
+span {
+    color: black;
+    font-size: 30px;
+}
+
+span:hover {
+    color: blue;
+}
+
+ul {
+    list-style: url("/uploads/2021/01/%D0%BD%D0%BE%D1%82%D0%B0_0_1610638133.svg");
+}
+
+ul:hover::after {
+    content: url(uploads/2021/03/clef-154541_0_1614939908.svg);
+    height: 90px;
+    width: 30px;
+
+}
+
+.SkripK {
+ 
+    width: 350px;
+    height: 250px;
+    padding: 5px 10px 5px 10px;
+    float: right;
+    
+}
+
+.SkripK img {
+    border-left: 0px;
+    border-right: 0px;
+    width: 100px;
+    height: 10;
+    margin-left: 140px;
+    
+    opacity: 0.3;
+    
+}
+
+.SkripK img:hover {
+    opacity: 1;
+}
+
+h2 {
+    background-color: wheat;
+    text-align: center;
+    font-size: 30px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white; 
+}
+
+
+.k {
+    border: 7px dashed green;
+    border-radius: 7%;
+}
+
+.kkk {
+   border: 7px dashed green;
+   border-radius: 7%; 
+}
+
+
+.Gitar1G {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    margin: auto;
+}
+
+
+.Gitar1G a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    background-color: green;
+    padding: 5px 85px 5px 85px;
+}
+
+.Gitar1G a:hover  {
+    background-color: #c1c1c1;
+    color: black;
+}
+
+.product {
+    width: 280px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border: 5px solid green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(76, 78, 128);
+}
+
+
+.product::before {
+    display: block;
+    content: url(/uploads/2021/03/h1_play_0_1614940696.svg);
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.product:hover::before {
+    opacity: 1;
+    
+}
+
+.HITu {
+    border-left: 0px dashed grey;
+    border-right: 0px dashed grey;
+    
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 820px; 
+}
+
+.HITu:hover {
+    border: 7px dotted rgb(255, 98, 0);
+    border-radius: 60%;
+    width: 180px;
+
+}
+
+.Gitar2CH {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    margin: auto;
+}
+
+.Gitar2CH a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    background-color: rgb(95, 143, 23);
+    
+}
+
+.Gitar2CH a:hover  {
+    background-color: #c1c1c1;
+    color: black;
+}
+
+.Gitar3S {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    margin: auto;
+}
+
+.Gitar3S a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    
+}
+
+.Gitar3S a:hover  {
+    background-color: #c1c1c1;
+    color: black;
+}
+
+.Gitar4M {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    margin: auto;
+}
+
+.Gitar4M a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    
+}
+
+.Gitar4M a:hover  {
+    background-color: #c1c1c1;
+    color: black;
+}
+
+.Gitar5K {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: lightslategray;
+    margin: auto;
+}
+
+.Gitar5K a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px dotted whitesmoke;
+    
+}
+
+.Gitar5K a:hover  {
+    background-color: #c1c1c1;
+    color: black;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+main p {
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+    
+}
+
+.tg {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 0px;
+    border: 1px solid wheat;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.gol {
+    opacity: 0.6;
+}
+
+.gol:hover {
+    opacity: 1;
+}
+
+.sil {
+    opacity: 0.7;
+}
+
+.sil:hover {
+    opacity: 1;
+}
+
+.ble {
+    border: 7px dashed green;
+    border-radius: 7%;
+    opacity: 0.8;
+}
+
+.ble:hover {
+    opacity: 1;
+}
+
+main img {
+    border-left: 6px dashed grey;
+    border-right: 6px dashed grey;
+}
+
+
+main h3 {
+    color: rgb(76, 78, 128);
+    background-color: lightslategray;
+}
+
+.vdguk {
+    border-left: 6px dashed grey;
+    width: 500px;
+    padding-left: 10px;
+
+}
+
+.vdguk::after {
+    display: block;
+    content: url(/uploads/2021/03/like_%D0%BD%D0%B5_%D0%BD%D0%B0%D0%B6%D0%B0%D1%82_0_1614967388.svg);
+    width: 30px;
+    height: 35px;
+    padding-left: 0px;
+   
+}
+
+.vdguk:hover::after {
+    border-bottom: 5px dotted white;
+}
+
+.vdguk-text {
+    color: black;
+}
+
+footer {
+    background-color: rgb(21, 124, 0);
+    padding: 20px;
+}
+
+footer p {
+    background-color: wheat;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+footer a {
+    color: white;
+    background-color: rgb(16, 31, 0);
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(75, 158, 33);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 45%;
+}
+
+footer a:hover {
+    background-color: #c1c1c1;
+    color: red;
+}
+
+footer a::before {
+    
+}
+
+footer a:hover::before {
+    content: url("/uploads/2021/03/click-38743_1280%201_0_1614962641.png");
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+
